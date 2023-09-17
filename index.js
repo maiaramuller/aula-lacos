@@ -55,15 +55,43 @@ const arrayDivididoDez = () => {
 };
 arrayDivididoDez();
 */
-
+/*
 const arrayPar = () => {
   let novoArray = [];
   for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    if (element % 2 === 0) {
-      novoArray.push(array);
-      console.log(array[i]);
-    }
+    const element = Mumber(array[i] % 2 === 0)
+    if (element) {
+      novoArray.push(array[i]);
+      }
   }
+  console.log(novoArray[i]);
 };
-arrayPar();
+arrayPar(array);
+*/
+/*
+const arrayString = (array) => {
+  let  strings= []
+  for (let i = 0 ; i < array.length; i++){
+     const texto = `Elemento do index ${i} é: ${array[i]}`
+      strings.push(texto)
+  }
+  console.log(strings)
+  }
+  arrayString(array)
+  */
+/*
+  const devolveMaiorMenor = (array) => {
+    let maiorNumero = 0
+    let menorNumero = array[0]
+  for (let i = 0; i < array.length; i++) {
+  
+    if (menorNumero > array[i]) {
+      menorNumero = array[i]
+    }else if(maiorNumero < array[i]) {
+      maiorNumero = array[i]
+  }
+  }
+  console.log(`O maior número é ${maiorNumero} e o menor é ${menorNumero}`)
+  }
+  devolveMaiorMenor(array)
+  */
